@@ -1,0 +1,63 @@
+{
+  "name": "TechhuntsE-commerce",
+  "bucket": "TechhuntsE-commerce",
+  "preset": "astro",
+  "env": "production",
+  "prefix": "20241027145605",
+  "not-first-run": true,
+  "function": {
+    "id": 31259,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 29946,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 0
+  },
+  "application": {
+    "id": 1730042199,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1730040854,
+    "name": "TechhuntsE-commerce",
+    "domain_name": "m37is0o2db.map.azionedge.net",
+    "url": "https://m37is0o2db.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 160438,
+      "origin-key": "e0f43ed8-bdb2-42ca-8336-6177203242d4",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 311846,
+        "name": "Set Storage Origin for All Requests",
+        "phase": "request"
+      },
+      {
+        "id": 311847,
+        "name": "Deliver Static Assets",
+        "phase": "request"
+      },
+      {
+        "id": 311848,
+        "name": "Redirect to index.html",
+        "phase": "request"
+      },
+      {
+        "id": 311849,
+        "name": "Redirect to index.html for Subpaths",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
