@@ -1,18 +1,12 @@
 {
-  "name": "astro-boilerplate",
-  "type": "module",
+  "name": "ecomerce",
   "version": "1.0.0",
-  "author": "aziontech",
-  "license": "MIT",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "astro": "^4.5.12",
-    "azion": "latest"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
